@@ -8,6 +8,6 @@ app.get("/", function(req, res) {
 	res.sendFile(path.join(__dirname + "/public/index.html"));
 });
 
-app.listen(3004, "0.0.0.0", function() {
+app.listen(3004, "localhost", function() {
 	console.log("ColorGame has started!");
 });
